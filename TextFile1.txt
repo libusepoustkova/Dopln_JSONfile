@@ -1,0 +1,117 @@
+pøírodní a polopøírodní objekt;hranice pøírodního a polopøírodního objektu
+stavba;hranice stavby;osa stavby;vnitøní konstrukce stavby
+podrobný bod;identický bod,podrobný bod
+okrasná zeleò;hranice mìstské zelenì
+polohové geodetické základy;polohové bodové pole
+tíhové geodetické základy;tíhové bodové pole
+výškové geodetické základy;výškové bodové pole
+katastrální území;katastrální území
+kraj;kraj
+NUTS;NUTS
+obec;obec
+ORP;ORP
+pozemek;pozemek
+území státu;území státu
+keøový porost;keøový porost
+mìstská parková zeleò bez rozlišení;mìstská parková zeleò bez rozlišení
+skupina stromù a keøù;skupina stromù a keøù
+solitérní keø;solitérní keø
+solitérní strom;solitérní strom
+udržovaná travnatá a okrasná plocha;udržovaná travnatá a okrasná plocha
+živý plot;živý plot
+vodní plocha;jezero
+vodní tok;vodní tok
+dopravní stavba;hranice dopravní plochy;hranice dopravní stavby
+vodohospodáøská stavba;hranice vodohospodáøské stavby
+budova;budova;hranice budovy;vnitøní konstrukce budovy (vnitøní kresba);èíslo domovní
+dílo dùlní - prostorové dílo a dílo dùlní ostatní;povrchový dùl, lom
+dílo dùlní - vrt a jáma;vrt
+pozemní silnièní komunikace;pozemní komunikace
+ostatní stavba pro sport a rekreaci;høištì
+dvùr, nádvoøí, vnitroblok;dvùr, nádvoøí, vnitroblok
+kolektor;kolektor
+kabelovod;kabelovod
+nosiè technického zaøízení;nosiè technického zaøízení
+opìrná zeï;opìrná zeï
+orientaèní sloupek TI;orientaèní sloupek TI
+patka, deska, monolit, pilíø;patka, deska, monolit, pilíø
+plot;plot
+podezdívka;podezdívka
+podpìrné zaøízení;podpìrné zaøízení
+povrchová stavba;povrchová stavba
+pøístupový bod k zaøízení TI;pøístupový bod k zaøízení TI
+propustek;propustek - prùbìh propustek - èelo
+prùmyslová nádrž;prùmyslová nádrž
+rampa;rampa
+rozvadìè IS;rozvadìè IS
+šachta podzemních vedení;šachta
+schodištì;hranice schodištì schodištì
+terasa;terasa
+vjezd na pozemek (brána);vjezd na pozemek (brána)
+vstup do budovy;vstup do budovy
+výtah v chodníku;výtah v chodníku
+zábradlí;zábradlí
+zeï;hranice zdi zeï
+vedení elektrické;trasa elektrické sítì
+vedení kanalizace místní trubní;trasa kanalizaèní sítì
+vedení plynu, ropy a ostatních produktù trubní;trasa plynovodní sítì;trasa sítì produktovodu
+vedení telekomunikaèní;trasa sítì EK
+vedení vody trubní;trasa vodovodní sítì
+vedení tepla trubní;trasa teplovodní sítì
+trasa potrubní pošty;trasa potrubní pošty
+aktivní zaøízení potrubní pošty;aktivní zaøízení potrubní pošty
+zaøízení protikorozní ochrany;zaøízení protikorozní ochrany
+protipovodòové opatøení;zaøízení protipovodòové ochrany
+studna;studna
+komín;komín
+skleník;skleník
+zahradní bazén;zahradní bazén
+dráha lanová;pozemní lanová dráha
+lanová dráha visutá;visutá lanová dráha
+dráha speciální;dráha metra;speciální železnièní dráha
+dráha tramvajová;dráha tramvajová
+dráha železnièní;železnice
+dráha vzletová a pøistávací;vzletová a pøistávací dráha
+parkovištì, odstavná plocha;parkovištì, odstavná plocha
+plavební komora;plavební komora
+vývazištì;vývazištì
+chodník;chodník
+cyklostezka;cyklostezka
+dìlící pás;dìlící pás
+dopravní zábrana;dopravní zábrana
+manipulaèní plocha;manipulaèní plocha
+mostovka;mostovka
+mostní váha;mostní váha
+nástupištì;nástupištì
+nosiè pro dopravní zaøízení;nosiè dopravního zaøízení
+pøíkop, násyp, záøez dopravní stavby;pøíkop, násyp, záøez dopravní stavby
+protihluková stìna;protihluková stìna
+svodidlo;svodidlo
+tunel a podchod;portál tunelu, podchodu;prùbìh tunelu, podchodu
+vjezd, sjezd;vjezd, sjezd
+výdejní stojan pohonných hmot a nabíjecí stojan elektromobility;výdejní stojan pohonných hmot a nabíjecí stojan elektromobility
+závora;závora
+drobná kulturní stavba;drobná kulturní stavba
+drobná sakrální stavba;drobná sakrální stavba
+høbitov;høbitov
+skládka odpadu;skládka odpadu
+technologická konstrukce;technologická konstrukce
+aktivní zaøízení elektrické sítì;aktivní zaøízení elektrické sítì
+vedeni místní elektrické;trasa místní elektrické sítì
+aktivní zaøízení kanalizaèní sítì;aktivní zaøízení kanalizaèní sítì
+aktivní zaøízení plynovodní sítì;aktivní zaøízení plynovodní sítì
+aktivní zaøízení sítì produktovodu;aktivní zaøízení sítì produktovodu
+aktivní zaøízení sítì EK;aktivní zaøízení sítì EK
+vedení místní telekomunikaèní;trasa místní sítì EK
+aktivní zaøízení vodovodní sítì;aktivní zaøízení vodovodní sítì
+aktivní zaøízení teplovodní sítì;aktivní zaøízení teplovodní sítì
+melioraèní šachta;melioraèní šachta
+melioraèní pøíkop, žlab;melioraèní pøíkop, žlab
+trasa vedení meliorace;trubní vedení meliorace
+protipovodòová retenèní nádrž (polder);protipovodòová retenèní nádrž (polder)
+protipovodòová hráz;protipovodòová hráz
+hráz, jez a stupeò na tocích;jez, pøepad, stupeò násep, hráz
+pøehrady a nádrže;vodní nádrž, rybník, pøehrada
+úprava vodních tokù (regulace);upravené koryto
+kolej;kolej
+železnièní pøejezd;železnièní pøejezd

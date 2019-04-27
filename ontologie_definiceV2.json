@@ -1,0 +1,752 @@
+{
+	"name": "Prostorový objekt",
+	"children": [{
+			"name": "Abstraktní objekt",
+			"children": [{
+					"name": "Geodetické základy",
+					"children": [{
+							"name": "Polohové geodetické základy",
+							"value": 10
+						},
+						{
+							"name": "Tíhové geodetické základy",
+							"value": 10
+						},
+						{
+							"name": "Výškové geodetické základy",
+							"value": 10
+						}
+					]
+				},
+				{
+					"name": "Územně-správní jednotky",
+					"children": [{
+							"name": "Katastrální území",
+							"value": 10
+						},
+						{
+							"name": "Kraj",
+							"value": 10
+						},
+						{
+							"name": "NUTS",
+							"value": 10
+						},
+						{
+							"name": "Obec",
+							"value": 10
+						},
+						{
+							"name": "ORP",
+							"value": 10
+						},
+						{
+							"name": "Pozemek",
+							"value": 10
+						},
+						{
+							"name": "Území státu",
+							"value": 10
+						}
+					]
+				},
+				{
+					"name": "Podrobný bod",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "Odvozený objekt",
+			"children": [{
+				"name": "Soubory stav. pro prům. úč.",
+				"children": [{
+					"name": "Stavba důlní a pro těžbu",
+					"children": [{
+							"name": "Dílo důlní - vrt a jáma",
+							"value": 10
+						},
+						{
+							"name": "Dílo důlní - prostorové dílo a dílo důlní ostatní",
+							"value": 10
+						},
+						{
+							"name": "Dílo důlní - šibík, překop, chodba, štola",
+							"value": 10
+						}
+					]
+				}]
+			}]
+		},
+		{
+			"name": "Přírodní a polopřírodní obj.",
+			"children": [{
+					"name": "Okrasná zeleň",
+					"children": [{
+							"name": "Keřový porost",
+							"value": 10
+						},
+						{
+							"name": "Městská parková zeleň bez rozlišení",
+							"value": 10
+						},
+						{
+							"name": "Skupina stromů a keřů",
+							"value": 10
+						},
+						{
+							"name": "Solitérní keř",
+							"value": 10
+						},
+						{
+							"name": "Stromořadí",
+							"value": 10
+						},
+						{
+							"name": "Udržovaná travnatá a okrasná plocha",
+							"value": 10
+						},
+						{
+							"name": "Živý plot",
+							"value": 10
+						}
+					]
+				},
+				{
+					"name": "Vodstvo",
+					"children": [{
+							"name": "Vodní plocha",
+							"value": 10
+						},
+						{
+							"name": "Vodní tok",
+							"value": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Stavba",
+			"definition": [{
+					"text": "Za stavbu se považují veškerá stavební díla bez zřetele na jejich stavebně technické provedení, účel a dobu trvání",
+					"zdroj": "(CZ-CC – ČSÚ); zákon č. 50/1976 Sb. a jeho prováděcích vyhlášek (zrušeny k 31.12. 2006)"
+				},
+				{
+					"text": "Stavbou se rozumí veškerá stavební díla, která vznikají stavební nebo montážní technologií, bez zřetele na jejich stavebně technické provedení, použité stavební výrobky, materiály a konstrukce, na účel využití a dobu trvání. Dočasná stavba je stavba, u které stavební úřad předem omezí dobu jejího trvání. Stavba, která slouží reklamním účelům, je stavba pro reklamu. Pokud se v tomto zákoně používá pojmu stavba, rozumí se tím podle okolností i její část nebo změna dokončené stavby",
+					"zdroj": "Zákon č. 183/2006 Sb., o územním plánování a stavebním řádu (stavební zákon), ve znění pozdějších předpisů, § 2 odst. 3, odst. 4."
+				}
+			],
+			"JVF_DTM": ["hranice stavby", "osa stavby", "vnitřní konstrukce stavby"],
+			"children": [{
+					"name": "Inženýrské dílo",
+					"definition":{
+					"text":"jsou všechny stavby, které nejsou klasifikovány jako budovy - např. železnice, silnice, dálnice, mosty, letištní plochy, hráze, podzemní a nadzemní vedení, produktovody",
+					"zdroj": "CZ-CC – ČSÚ"
+					},
+					"children": [{
+							"name": "Dopravní stavba",
+							"children": [{
+									"name": "Dráha",
+									"children": [{
+											"name": "Dráha lanová",
+											"value": 10
+										},
+										{
+											"name": "Lanová dráha visutá",
+											"value": 10
+										},
+										{
+											"name": "Dráha speciální",
+											"value": 10
+										},
+										{
+											"name": "Dráha tramvajová",
+											"value": 10
+										},
+										{
+											"name": "Dráha trolejbusová",
+											"value": 10
+										},
+										{
+											"name": "Dráha železniční",
+											"children": [{
+													"name": "Celostátní dráha",
+													"value": 10
+												},
+												{
+													"name": "Regionální dráha",
+													"value": 10
+												},
+												{
+													"name": "Místní dráha",
+													"value": 10
+												},
+												{
+													"name": "Vlečka",
+													"value": 10
+												}
+											]
+										},
+										{
+											"name": "Stavební část dráhy",
+											"children": [{
+													"name": "Spodek dráhy",
+													"value": 10
+												},
+												{
+													"name": "Svršek dráhy",
+													"children": [{
+															"name": "Železniční přejezd",
+															"value": 10
+														},
+														{
+															"name": "Kolej",
+															"value": 10
+														},
+														{
+															"name": "Návěstí",
+															"value": 10
+														},
+														{
+															"name": "Rychlostník",
+															"value": 10
+														},
+														{
+															"name": "Výhybka",
+															"value": 10
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "Plocha letiště",
+									"children": [{
+										"name": "Dráha vzletová a přistávací",
+										"value": 10
+									}]
+								},
+								{
+									"name": "Pozemní silniční komunikace",
+									"children": [{
+											"name": "Dálnice",
+											"children": [{
+													"name": "Dálnice I.třídy",
+													"value": 10
+												},
+												{
+													"name": "Dálnice II.třídy",
+													"value": 10
+												}
+											]
+										},
+										{
+											"name": "Silnice",
+											"children": [{
+													"name": "Silnice I.třídy",
+													"value": 10
+												},
+												{
+													"name": "Silnice II.třídy",
+													"value": 10
+												},
+												{
+													"name": "Silnice III.třídy",
+													"value": 10
+												}
+											]
+										},
+										{
+											"name": "Místní komunikace",
+											"children": [{
+													"name": "Místní komunikace I.třídy",
+													"value": 10
+												},
+												{
+													"name": "Místní komunikace II.třídy",
+													"value": 10
+												},
+												{
+													"name": "Místní komunikace III.třídy",
+													"value": 10
+												},
+												{
+													"name": "Místní komunikace IV.třídy",
+													"value": 10
+												}
+											]
+										},
+										{
+											"name": "Účelové komunikace",
+											"children": [{
+													"name": "Komunikace pozemní místní a účelové j. n.",
+													"value": 10
+												},
+												{
+													"name": "Komunikace v obcích",
+													"value": 10
+												}
+											]
+										},
+										{
+											"name": "Parkoviště, odstavná plocha",
+											"value": 10
+										}
+									]
+								},
+								{
+									"name": "Zařízení pro vodní dopravu",
+									"children": [{
+											"name": "Plavební komora",
+											"value": 10
+										},
+										{
+											"name": "Vývaziště",
+											"value": 10
+										}
+									]
+								},
+								{
+									"name": "Společná dopravní stavba",
+									"children": [{
+											"name": "Chodník",
+											"value": 10
+										},
+										{
+											"name": "Cyklostezka",
+											"value": 10
+										},
+										{
+											"name": "Dělící pás",
+											"value": 10
+										},
+										{
+											"name": "Dopravní zábrana",
+											"value": 10
+										},
+										{
+											"name": "Manipulační plocha",
+											"value": 10
+										},
+										{
+											"name": "Mostovka",
+											"value": 10
+										},
+										{
+											"name": "Mostní váha",
+											"value": 10
+										},
+										{
+											"name": "Nástupiště",
+											"value": 10
+										},
+										{
+											"name": "Nosič pro dopravní zařízení",
+											"value": 10
+										},
+										{
+											"name": "Příkop, násyp, zářez dopravní stavby",
+											"value": 10
+										},
+										{
+											"name": "Protihluková stěna",
+											"value": 10
+										},
+										{
+											"name": "Svodidlo",
+											"value": 10
+										},
+										{
+											"name": "Tunel a podchod",
+											"value": 10
+										},
+										{
+											"name": "Vjezd, sjezd",
+											"value": 10
+										},
+										{
+											"name": "Výdejní stojan pohonných hmot a nabíjecí stojan elektromobility",
+											"value": 10
+										},
+										{
+											"name": "Závora",
+											"value": 10
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Ostatní inženýrské dílo",
+							"children": [{
+									"name": "Kulturní objekt",
+									"children": [{
+											"name": "Drobná kulturní stavba",
+											"value": 10
+										},
+										{
+											"name": "Drobná sakrální stavba",
+											"value": 10
+										},
+										{
+											"name": "Hřbitov",
+											"value": 10
+										}
+									]
+								},
+								{
+									"name": "Ostatní inženýrské dílo j. n.",
+									"children": [{
+											"name": "Skládka odpadu",
+											"value": 10
+										},
+										{
+											"name": "Technologická konstrukce",
+											"value": 10
+										}
+									]
+								},
+								{
+									"name": "Ostatní stavba pro sport a rekreaci",
+									"value": 10
+								}
+							]
+						},
+						{
+							"name": "Společná stavba",
+							"children": [{
+									"name": "Dvůr, nádvoří, vnitroblok",
+									"value": 10
+								},
+								{
+									"name": "Kolektor",
+									"value": 10
+								},
+								{
+									"name": "Kabelovod",
+									"value": 10
+								},
+								{
+									"name": "Nosič technického zařízení",
+									"value": 10
+								},
+								{
+									"name": "Opěrná zeď",
+									"value": 10
+								},
+								{
+									"name": "Orientační sloupek TI",
+									"value": 10
+								},
+								{
+									"name": "Patka, deska, monolit, pilíř",
+									"value": 10
+								},
+								{
+									"name": "Plot",
+									"value": 10
+								},
+								{
+									"name": "Podezdívka",
+									"value": 10
+								},
+								{
+									"name": "Podpěrné zařízení",
+									"value": 10
+								},
+								{
+									"name": "Povrchová stavba",
+									"value": 10
+								},
+								{
+									"name": "Přístupový bod k zařízení TI",
+									"value": 10
+								},
+								{
+									"name": "Propustek",
+									"value": 10
+								},
+								{
+									"name": "Průmyslová nádrž",
+									"value": 10
+								},
+								{
+									"name": "Rampa",
+									"value": 10
+								},
+								{
+									"name": "Rozvaděč IS",
+									"value": 10
+								},
+								{
+									"name": "Šachta podzemních vedení",
+									"value": 10
+								},
+								{
+									"name": "Schodiště",
+									"value": 10
+								},
+								{
+									"name": "Terasa",
+									"value": 10
+								},
+								{
+									"name": "Vjezd na pozemek (brána)",
+									"value": 10
+								},
+								{
+									"name": "Vstup do budovy",
+									"value": 10
+								},
+								{
+									"name": "Výtah v chodníku",
+									"value": 10
+								},
+								{
+									"name": "Zábradlí",
+									"value": 10
+								},
+								{
+									"name": "Zeď",
+									"value": 10
+								}
+							]
+						},
+						{
+							"name": "Potrubní pošta",
+							"children": [{
+									"name": "Trasa potrubní pošty",
+									"value": 10
+								},
+								{
+									"name": "Aktivní zařízení potrubní pošty",
+									"value": 10
+								}
+							]
+						},
+						{
+							"name": "Ochrana speciálních staveb",
+							"children": [{
+								"name": "Zařízení protikorozní ochrany",
+								"value": 10
+							}]
+						},
+						{
+							"name": "Vedení trubní, telekomunikační a elektrické",
+							"children": [{
+									"name": "Vedení elektrické",
+									"children": [{
+											"name": "Aktivní zařízení elektrické sítě",
+											"value": 10
+										},
+										{
+											"name": "Vedení dálkové elektrické",
+											"value": 10
+										},
+										{
+											"name": "Vedeni místní elektrické",
+											"value": 10
+										}
+									]
+								},
+								{
+									"name": "Vedení kanalizace místní trubní",
+									"children": [{
+										"name": "Aktivní zařízení kanalizační sítě",
+										"value": 10
+									}]
+								},
+								{
+									"name": "Vedení plynu, ropy a ostatních produktů trubní",
+									"children": [{
+											"name": "Aktivní zařízení plynovodní sítě",
+											"value": 10
+										},
+										{
+											"name": "Vedení plynu, ropy a ostatních produktů dálková trubní",
+											"value": 10
+										},
+										{
+											"name": "Aktivní zařízení sítě produktovodu",
+											"value": 10
+										}
+									]
+								},
+								{
+									"name": "Vedení telekomunikační",
+									"children": [{
+											"name": "Aktivní zařízení sítě EK",
+											"value": 10
+										},
+										{
+											"name": "Vedení dálkové telekomunikační",
+											"value": 10
+										},
+										{
+											"name": "Vedení místní telekomunikační",
+											"value": 10
+										}
+									]
+								},
+								{
+									"name": "Vedení vody trubní",
+									"children": [{
+											"name": "Aktivní zařízení vodovodní sítě",
+											"value": 10
+										},
+										{
+											"name": "Vedení vody dálková trubní",
+											"value": 10
+										},
+										{
+											"name": "Vedení vody místní trubní",
+											"value": 10
+										}
+									]
+								},
+								{
+									"name": "Vedení tepla trubní",
+									"children": [{
+										"name": "Aktivní zařízení teplovodní sítě",
+										"value": 10
+									}]
+								}
+							]
+						},
+						{
+							"name": "Vodohospodářská stavba",
+							"children": [{
+									"name": "Akvadukty, díla pro zavlažování a odvodnění",
+									"children": [{
+											"name": "Meliorační příkop, žlab",
+											"value": 10
+										},
+										{
+											"name": "  Meliorační šachta",
+											"value": 10
+										},
+										{
+											"name": "Trasa vedení meliorace",
+											"value": 10
+										},
+										{
+											"name": "Vodní dílo pro odvodnění",
+											"value": 10
+										}
+									]
+								},
+								{
+									"name": "Protipovodňové opatření",
+									"children": [{
+											"name": "Protipovodňová retenční nádrž (polder)",
+											"value": 10
+										},
+										{
+											"name": "Protipovodňová hráz",
+											"value": 10
+										}
+									]
+								},
+								{
+									"name": "Studna",
+									"value": 10
+								},
+								{
+									"name": "Vodní stupeň",
+									"children": [{
+											"name": "Hráz, jez a stupeň na tocích",
+											"value": 10
+										},
+										{
+											"name": "Přehrady a nádrže",
+											"value": 10
+										},
+										{
+											"name": "Úprava vodních toků (regulace)",
+											"value": 10
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Pozemní stavba",
+					"children": [{
+							"name": "Budova",
+							"children": [{
+									"name": "Budova bytová",
+									"children": [{
+											"name": "Budova bytová ostatní",
+											"value": 10
+										},
+										{
+											"name": "Budova jednobytová",
+											"value": 10
+										},
+										{
+											"name": "Budova dvou a vícebytová",
+											"value": 10
+										}
+									]
+								},
+								{
+									"name": "Budova nebytová",
+									"children": [{
+											"name": "Budova administrativní",
+											"value": 10
+										},
+										{
+											"name": "Budova nebytová ostatní",
+											"value": 10
+										},
+										{
+											"name": "Budova pro dopravu a telekomunikace",
+											"value": 10
+										},
+										{
+											"name": "Budova pro obchod",
+											"value": 10
+										},
+										{
+											"name": "Budova pro průmysl a skladování",
+											"value": 10
+										},
+										{
+											"name": "Budova pro společenské a kulturní účely, výzkum, vzd. a zdrav.",
+											"value": 10
+										},
+										{
+											"name": "Hotel a obdobná budova",
+											"value": 10
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Ostatní pozemní stavba",
+							"children": [{
+									"name": "Komín",
+									"value": 10
+								},
+								{
+									"name": "Skleník",
+									"value": 10
+								},
+								{
+									"name": "Zahradní bazén",
+									"value": 10
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
