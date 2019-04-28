@@ -8,7 +8,7 @@ import json
 def nacti_JSON():
 #fnction reads JSON file
     try:
-       with open('ontologie_definiceV2.json', encoding='utf8') as ontoJsonFile:
+       with open('ontologie_definice.json', encoding='utf8') as ontoJsonFile:
             ontoJsonStr = ontoJsonFile.read()
             #print(json.dumps(ontoJsonStr)) #, ensure_ascii=False, indent=2))
             ontoJson_data = json.loads(ontoJsonStr)
@@ -40,7 +40,7 @@ def preved_na_slovnik(listDopln):
     return slDopln
 
 def dopln_JVFK_do_retezce(JSONstr,slDopln):
-
+#function adds a new attribute to the string
     novyJSON = JSONstr
     for onto, dtm in slDopln.items():
         maleonto = onto.lower()
@@ -50,11 +50,19 @@ def dopln_JVFK_do_retezce(JSONstr,slDopln):
             #print("nalezeno: " + Onto)
             poziceOnto = malynovyJSON.index(maleonto)
             poziceJVFDTM = poziceOnto + len(onto) + 3
-            novyJSON = '{0}"JVF_DTM":{1},{2}'.format(novyJSON[0:poziceJVFDTM], dtm, novyJSON[poziceJVFDTM:])
+            novyJSON = '{0}"JVF_DTM":{1},{2}'.format(novyJSON[0:poziceJVFDTM], json.dumps(dtm, ensure_ascii=False,), novyJSON[poziceJVFDTM:])
         else:
             print("Nenalezeno: " + onto)
     return novyJSON
 
+def zapis_JSON_do_souboru(JSONstr):
+    try:
+        #new_file = open("D:\\new_dir\\newfile.txt", mode="a+", encoding="utf-8")
+        with open('JSONedit.JSON', mode="w", encoding='utf8') as novyJSONfile:
+            novyJSONfile.write (JSONstr)
+
+    except FileNotFoundError:
+        print("Nenalezen soubor")
 
 listDoplneni = []
 listDoplneni = nacti_doplnovana_data(listDoplneni)
@@ -64,4 +72,4 @@ retezecJSON = nacti_JSON()
 slovnikDopl = {}
 slovnikDopln = preved_na_slovnik(listDoplneni)
 novyJSONstr=dopln_JVFK_do_retezce(retezecJSON, slovnikDopln)
-print(novyJSONstr)
+zapis_JSON_do_souboru(novyJSONstr)
